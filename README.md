@@ -38,7 +38,7 @@ We can use that to conduct various tests using xyce.Type the following (after cl
     --spice_header lib/sky130_fd_pr__pfet_01v8.pm3.spice \
     --spice_header lib/sky130_fd_pr__nfet_01v8.pm3.spice \
     --spice_header lib/sky130_ef_sc_hd__decap_12.spice \
-    --top iiitb_counter\
+    --top iiitb_siso\
     --save final.pb \
     --working_dir /tmp/bigspicy
 
@@ -56,7 +56,7 @@ We can use that to conduct various tests using xyce.Type the following (after cl
     --spice_header lib/sky130_fd_pr__nfet_01v8.pm3.spice \
     --spice_header lib/sky130_ef_sc_hd__decap_12.spice \
     --save final.pb \
-    --top iiitb_counter\
+    --top iiitb_siso\
     --flatten_spice --dump_spice spice.sp
 
 
