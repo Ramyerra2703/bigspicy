@@ -1,4 +1,0 @@
-protobuf>4.21
-pyverilog
-numpy
-matplotlib
